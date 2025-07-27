@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: kalasetu-deployment
+  labels:
+    app: kalasetu
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: kalasetu
+  template:
+    metadata:
+      labels:
+        app: kalasetu
+    spec:
+      containers:
+      - name: kalasetu
+        image: your-docker-image
+        ports:
+        - containerPort: 80

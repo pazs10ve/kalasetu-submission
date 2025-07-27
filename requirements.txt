@@ -1,0 +1,25 @@
+# Core Framework
+fastapi
+uvicorn[standard]
+gunicorn
+pydantic
+python-multipart
+
+# Hugging Face & ML
+torch
+transformers
+datasets
+diffusers[torch]
+accelerate
+bitsandbytes
+peft
+unsloth
+
+# Media Processing
+scipy
+pydub
+imageio
+moviepy
+
+# Utilities
+pandas

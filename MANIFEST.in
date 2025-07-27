@@ -1,0 +1,13 @@
+include README.md
+include LICENSE
+include requirements.txt
+recursive-include voice_agent *
+recursive-include video_agent *
+recursive-include graphics_agent *
+recursive-include fine-tune *
+recursive-include evals *
+recursive-include tests *
+recursive-include docs *
+recursive-include docker *
+recursive-include kubernetes *
+recursive-include .github *

@@ -1,0 +1,20 @@
+{
+  "include": [
+    "kalasetu"
+  ],
+  "exclude": [
+    "**/__pycache__",
+    "**/.*",
+    "**/.*/"
+  ],
+  "stubPath": "stubs",
+  "reportMissingImports": true,
+  "reportMissingTypeStubs": false,
+  "pythonVersion": "3.9",
+  "pythonPlatform": "Linux",
+  "executionEnvironments": [
+    {
+      "root": "kalasetu"
+    }
+  ]
+}
